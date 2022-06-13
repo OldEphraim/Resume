@@ -1,14 +1,16 @@
 import React from 'react';
 import Header from './components/Header/Header.js';
-import Resume from './components/Resume/Resume.js';
+import Resumes from './components/Resumes/Resumes.js';
 
 import './App.scss';
+
+import resumePDF from './assets/resume.pdf';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Resume />
+      <Resumes />
     </div>
   );
 }
