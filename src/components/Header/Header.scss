@@ -1,0 +1,33 @@
+.Header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.header-logo {
+  margin-left: 3.445rem;
+}
+
+.navbar {
+
+margin: 0 auto;
+
+div {
+  position: absolute;
+  right: 40px;
+
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: black;
+      cursor: pointer;
+
+      &:hover {
+        border-bottom: 3px solid red;
+      }
+  }
+}
+}
