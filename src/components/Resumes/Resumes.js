@@ -1,8 +1,8 @@
 import React from 'react';
 import './Resumes.scss';
 
-import resumePDF from '../../assets/resume.pdf';
-import resumeIMG from '../../assets/resumeimg.jpg';
+import resumePDF from '../../assets/resume-06-26-2022.pdf';
+import resumeIMG from '../../assets/resume-06-26-2022.jpg';
 
 const Resumes = () => {
   return (
